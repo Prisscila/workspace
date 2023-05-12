@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+  <table style="width: 500px;">
+        <thead>
+          <tr>
+            <th>Precio</th>
+            <th>Producto</th>
+          </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz</td>
+            <td>19.90$</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz muy feliz</td>
+            <td>29.90$</td>
+        </tr>
+       </tbody>
+       <tfoot>
+            <td></td>
+            <td>Total: 49.80$</td>
+       </tfoot>
+    </table>
+    <!--ul es lista no ordenanda-->
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li> 
+</ul>
+<!--ol es lista no ordenada-->
+<ol>
+    <li value="50">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li> 
+    <li>
+        <ol>
+            <li style="list-style-type: lower-alpha">Sub Elemento 1</li>
+            <li style="list-style-type: lower-alpha">Sub Elemento 2</li>
+            <li style="list-style-type: lower-alpha">Sub Elemento 3</li>
+    
+        </ol>
+        
+    </li>
+
+</ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="lala" placeholder="chanchito feliz..."/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="chanchito triste"/>
+        <br>
+        <label for="comentario">comentario</label>
+        <textarea cols="50" rows="10" name="comentario" id="comentario" placeholder="ingrese comentario"></textarea>
+        <br>
+        <button type="button"> Tipo botón</button>
+        <button type="reset">Tipo botón</button>
+        <button type="submit">Tipo botón</button>
+    <!--form permite enviar informacion a un servidor web-
+        input editar el valor 
+        br es el salto de linea
+        label la etiqueta del usuario
+        button es para crear un botón en el q se hace click-->
+
+    </form>
+    <h1> Mi primera heading</h1>
+    <h2> Mi segundo heading</h2>
+    <h3> Mi tercer heading</h3>
+    <h4> Mi cuarto heading</h4>
+    <h5> Mi quinto heading</h5>
+    <h6> Mi sexto heaging</h6>
+    <!--p sirve para distribuir texto en párrafos-->
+    <p> Chanchito feliz esta muy feliz.</p>
+    <p>chanchito triste esta muy triste</p>
+    <h2>chanchito pris</h2>
+    <p>este texto es <span style="color: blue;">mucho más largo</span>  y es para mostrar <br><br>
+        la etiqueta de span!
+    </p>
+    <!--este texto es un comentario y no va a
+         aparecer en el explorador-->
+         <!--a permite crear enlaces en otras paguinas -->
+         <a target="_blank" href="https://www.google.com">Ir a google</a>
+         <!--img permite añadir imagenes-->
+         <img src="gato.jpg" width="100" height="200">
+    </body>
+</html>
